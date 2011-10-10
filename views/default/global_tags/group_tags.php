@@ -13,5 +13,5 @@
 		
 		$form = elgg_view("input/form", array("action" => $vars["url"] . "action/global_tags/group", "body" => $form_body));
 		
-		echo elgg_view("page_elements/contentWrapper", array("body" => $form));
+		echo elgg_view("page_elements/contentwrapper", array("body" => $form));
 	}
