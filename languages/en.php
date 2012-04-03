@@ -8,5 +8,6 @@
 		"global_tags:action:group:save" => "Saved Group Content Tags",
 	
 	);
+	
 	add_translation("en", $english);
 	
