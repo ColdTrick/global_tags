@@ -1,5 +1,11 @@
 = Version history =
 
+2.1 (2013-10-10):
+
+- added: dutch language
+- added: option to configure group specific tags that will be added to newly created content in groups
+- removed: autocomplete css as keyboard selection is fixed in Elgg 1.8.14 (https://github.com/Elgg/Elgg/commit/3736c93fb6e3910a592b037d961367180edd542e)
+
 2.0 (2012-04-03):
 
 - changed: updated for Elgg 1.8
