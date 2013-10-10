@@ -1,6 +1,7 @@
 <?php
+	
 	$group = $vars["entity"];
-	if($group){
+	if ($group) {
 		$tags = $group->getPrivateSetting("global_tags");
 		
 		$form_body = "<div>" . elgg_echo("global_tags:group:tags") . "<br />";
