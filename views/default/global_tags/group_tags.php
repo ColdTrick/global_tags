@@ -3,9 +3,14 @@
 	$group = $vars["entity"];
 	if ($group) {
 		$tags = $group->getPrivateSetting("global_tags");
+		$new_content_tags = $group->getPrivateSetting("new_content_tags");
 		
 		$form_body = "<div>" . elgg_echo("global_tags:group:tags") . "<br />";
 		$form_body .= elgg_view("input/text", array("name" => "global_tags", "value" => $tags));
+		$form_body .= "</div>";
+		
+		$form_body .= "<div>" . elgg_echo("global_tags:group:new_content_tags") . "<br />";
+		$form_body .= elgg_view("input/text", array("name" => "new_content_tags", "value" => $new_content_tags));
 		$form_body .= "</div>";
 		
 		$form_body .= elgg_view("input/hidden", array("name" => "guid", "value" => $group->getGUID()));

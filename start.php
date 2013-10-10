@@ -5,6 +5,7 @@
 		elgg_extend_view("css/elgg", "global_tags/css/site");
 		
 		elgg_extend_view("groups/edit", "global_tags/group_tags");
+		elgg_extend_view("input/tags", "global_tags/pre_input", 400);
 		elgg_extend_view("input/tags", "global_tags/input");
 	}
 
